@@ -5,3 +5,9 @@ This work is uploaded in the state I demonstrated it for college, and as such so
 I can be reached at http://github.com/shovelware , which is presumably where this code was downloaded. Any questions, comments or other things can be forwarded over there and I'll respond in as timely manner as I can.
 
 -Shovel
+
+---
+Toolset: XNA
+Subject: Programming, Graphics
+
+Portfolio page: http://shovelwaregames.wordpress.com/p/y1/#JP2
