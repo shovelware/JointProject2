@@ -1,0 +1,43 @@
+﻿if (keyState.IsKeyDown(Keys.W))
+                    {
+                        int mult = 1;
+                        if (keyState.IsKeyDown(Keys.LeftShift))
+                        {
+                            mult = 2;
+                        }
+
+                        player1.Move(1, mult);
+                    }
+
+                    if (keyState.IsKeyDown(Keys.A))
+                    {
+                        int mult = 1;
+                        if (keyState.IsKeyDown(Keys.LeftShift))
+                        {
+                            mult = 2;
+                        }
+
+                        player1.Move(4 , mult);
+                    }
+
+                    if (keyState.IsKeyDown(Keys.S))
+                    {
+                        int mult = 1;
+                        if (keyState.IsKeyDown(Keys.LeftShift))
+                        {
+                            mult = 2;
+                        }
+
+                        player1.Move(3 , mult);
+                    }
+
+                    if (keyState.IsKeyDown(Keys.D))
+                    {
+                        int mult = 1;
+                        if (keyState.IsKeyDown(Keys.LeftShift))
+                        {
+                            mult = 2;
+                        }
+
+                        player1.Move(2, mult);
+                    }

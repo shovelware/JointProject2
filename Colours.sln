@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colours", "Colours\Colours\Colours.csproj", "{712496D9-F7AA-4032-A5E3-B096349F4945}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ColoursContent", "Colours\ColoursContent\ColoursContent.contentproj", "{95DE4B95-F0ED-4716-8625-781A0F345432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{712496D9-F7AA-4032-A5E3-B096349F4945}.Debug|x86.ActiveCfg = Debug|x86
+		{712496D9-F7AA-4032-A5E3-B096349F4945}.Debug|x86.Build.0 = Debug|x86
+		{712496D9-F7AA-4032-A5E3-B096349F4945}.Release|x86.ActiveCfg = Release|x86
+		{712496D9-F7AA-4032-A5E3-B096349F4945}.Release|x86.Build.0 = Release|x86
+		{95DE4B95-F0ED-4716-8625-781A0F345432}.Debug|x86.ActiveCfg = Debug|x86
+		{95DE4B95-F0ED-4716-8625-781A0F345432}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿
+        //bool atatat;//weapon unlocked
+        //byte aLevel;//weapon level
+        //int aDamage;//weapon damage
+        //int aHeat;//weapon heat
+        //int aCooldown;//weapon cooldown
+
+        //bool boom;
+        //byte bLevel;
+        //int bDamage;
+        //int bRadius;//weapon radius
+        //int bCooldown;
+
+        //bool coil;
+        //byte cLevel;
+        //int cDamage;
+        //int cRadius;
+        //int cCooldown;
+
+        //bool depleted;
+        //byte dLevel;
+        //int dDamage;
+        //int dPierce;//weapon pierce amount
+        //int dCooldown;

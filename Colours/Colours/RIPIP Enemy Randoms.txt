@@ -1,0 +1,69 @@
+﻿ //roll for follow or random
+            //if random, move around a little
+            //if follow, move towards even littler
+            if (followtime <= 0 && randomtime <= 0)
+            {
+                mode = rng.Next(0, 20);
+            }
+            if (mode > 15)
+            {
+                followtime = rng.Next(1200, 6000);
+                if (target.X < pos.X)
+                {
+                    pos.X -= speed;
+                    followtime--;
+                }
+
+                else if (target.X > pos.X)
+                {
+                    pos.X += speed;
+                    followtime--;
+                }
+
+                if (target.Y < pos.Y)
+                {
+                    pos.Y -= speed;
+                    followtime--;
+                }
+
+                else if (target.Y > pos.Y)
+                {
+                    pos.Y += speed;
+                    followtime--;
+                }
+            }
+
+            else if (mode <= 15)
+            {
+                randomtime = rng.Next(3600, 7200);
+                int moveRoll = rng.Next(1, 60);
+                if (moveRoll <= 30)
+                {
+                   dirX = rng.Next(1, 3);
+                   dirY = rng.Next(1, 3);
+                }
+
+                if (dirX <= 1)
+                {
+                    pos.X -= speed;
+                    randomtime--;
+                }
+
+                else if (dirX >= 2)
+                {
+                    pos.X += speed;
+                    randomtime--;
+                }
+
+                if (dirY <= 1)
+                {
+                    pos.Y -= speed;
+                    randomtime--;
+                }
+
+                else if (dirY >= 2)
+                {
+                    pos.Y += speed;
+                    randomtime--;
+                }
+            }
